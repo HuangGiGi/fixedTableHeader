@@ -33,7 +33,6 @@
 
 		function showTableHeader(){
 			var tableName = oTable.selector.replace(".","")
-			console.log(oTable);
 			if($('table').hasClass(tableName)){
 			    windowScrollTop = $(window).scrollTop();
 			    tableScrollTop = $(oTable.selector).offset().top;
